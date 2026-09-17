@@ -1,6 +1,8 @@
-# WeChat Chat Access Skill for macOS
+# WeChat Chat Access Skill for macOS（Mac 侧）
 
-一个供 Codex 使用的 Skill：只读接入本人 Mac 上的微信 4.x 本地加密数据库，列出会话、读取消息、搜索正文，并在接入失效时提供受控恢复流程。
+> **平台范围：仅适用于 Mac/macOS 侧，不支持 Windows 微信数据库。**
+
+一个供 Codex 使用的 Mac 侧 Skill：只读接入本人 Mac 上的微信 4.x 本地加密数据库，列出会话、读取消息、搜索正文，并在接入失效时提供受控恢复流程。
 
 ## 能做什么
 
@@ -45,4 +47,3 @@ Skill 的完整使用方式、查询命令和验证边界见 [SKILL.md](SKILL.md
 python3 "$HOME/.codex/skills/.system/skill-creator/scripts/quick_validate.py" .
 "$HOME/Library/Application Support/CodexWeChatRead/runtime/bin/python" -m unittest discover -s scripts -p 'test_*.py'
 ```
-

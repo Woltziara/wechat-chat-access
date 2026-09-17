@@ -1,4 +1,4 @@
 interface:
-  display_name: "微信聊天记录接入"
-  short_description: "通过本机加密数据库只读查询微信对话，包含接入检查与失效恢复"
+  display_name: "Mac 微信聊天记录接入"
+  short_description: "仅限 Mac：通过本机加密数据库只读查询微信对话，包含接入检查与失效恢复"
   default_prompt: "请使用 $wechat-chat-access 检查本机微信聊天记录接入，并按我的要求只读查询。"
